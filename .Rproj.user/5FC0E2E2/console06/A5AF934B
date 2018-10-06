@@ -1,0 +1,91 @@
+]0;~/Desktop/Official Densite/Densite[?1034h192-168-1-5:Densite Davide$ [K192-168-1-5:Densite Davide$ git commit "adding[K[K[K[K[K[Kremoved empty rmd file"
+error: pathspec 'removed empty rmd file' did not match any file(s) known to git.
+]0;~/Desktop/Official Densite/Densite192-168-1-5:Densite Davide$ git commit "removed empty rmd file"[C[1@ [1@-[1@,[1P[1@m[C[1@ [1P
+[master (root-commit) e5472a8] removed empty rmd file
+ 7 files changed, 135 insertions(+)
+ create mode 100644 .Rproj.user/5FC0E2E2/console06/FA8A3F6
+ create mode 100644 .Rproj.user/5FC0E2E2/console06/FA8A3F6.env
+ create mode 100644 .Rproj.user/5FC0E2E2/console06/INDEX001
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 Densite.Rproj
+ create mode 160000 densite2
+]0;~/Desktop/Official Densite/Densite192-168-1-5:Densite Davide$ git push ori[K[Kiri[K[K[Krigin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Desktop/Official Densite/Densite192-168-1-5:Densite Davide$ git o[Ko[Kpush
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+]0;~/Desktop/Official Densite/Densite192-168-1-5:Densite Davide$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+]0;~/Desktop/Official Densite/Densite192-168-1-5:Densite Davide$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	[31mdeleted:    .Rproj.user/5FC0E2E2/console06/FA8A3F6[m
+	[31mdeleted:    .Rproj.user/5FC0E2E2/console06/FA8A3F6.env[m
+	[31mmodified:   .Rproj.user/5FC0E2E2/console06/INDEX001[m
+	[31mmodified:   densite2[m (modified content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/5FC0E2E2/console06/A5AF934B[m
+	[31m.Rproj.user/5FC0E2E2/console06/A5AF934B.env[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Official Densite/Densite192-168-1-5:Densite Davide$ git add .
